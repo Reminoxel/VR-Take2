@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Scene
+  m_Title: Hierarchy
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 101
+  controlID: 106
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -410,7 +410,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Assets/Town/source
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -418,17 +418,17 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Assets/Town/source
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\Users\JoeyD\OneDrive\Documents\GitHub\VR-Take2\My project
     (3)
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 30700000
-    m_LastClickedID: 28720
-    m_ExpandedIDs: 000000002c7000002e70000030700000327000003470000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 54}
+    m_SelectedIDs: ea760000
+    m_LastClickedID: 30442
+    m_ExpandedIDs: 000000002c7000002e700000307000003270000034700000ac70000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -483,7 +483,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c62300009cb300000079000052660100846e00000ca30000529f00006abc000050dc00009cbe0000602801008ada0000f8ea0000dee40000222001004e7f0000de6b0000248e0000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
@@ -551,21 +551,21 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: 26fbffff
+      m_ExpandedIDs: 34a9ffff26fbffff406a0000
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: 
-        m_OriginalName: 
+        m_Name: Town.fbx
+        m_OriginalName: Town.fbx
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: 0
+        m_UserData: -22096
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 11
+        m_OriginalEventType: 0
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 8}
       m_SearchString: 
@@ -944,9 +944,9 @@ MonoBehaviour:
   m_PlayAudio: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 115.99136, y: -13.295929, z: 166.93065}
+    m_Target: {x: 11.642078, y: 3.105156, z: -24.295788}
     speed: 2
-    m_Value: {x: 115.99136, y: -13.295929, z: 166.93065}
+    m_Value: {x: 11.642078, y: 3.105156, z: -24.295788}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -992,13 +992,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 0.5
   m_Rotation:
-    m_Target: {x: 0.053747714, y: 0.28020018, z: -0.013945131, w: 0.95870805}
+    m_Target: {x: 0.06981697, y: -0.91166306, z: 0.17768617, w: 0.36496264}
     speed: 2
-    m_Value: {x: -0.05374771, y: -0.28020018, z: 0.013945131, w: -0.958708}
+    m_Value: {x: 0.06952346, y: -0.9118566, z: 0.17772193, w: 0.3634541}
   m_Size:
-    m_Target: 112.60912
+    m_Target: 41.941563
     speed: 2
-    m_Value: 112.60912
+    m_Value: 43.917866
   m_Ortho:
     m_Target: 0
     speed: 2
