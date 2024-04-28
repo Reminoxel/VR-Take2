@@ -5,13 +5,16 @@ using UnityEngine;
 public class EnemyController : MonoBehaviour
 {
     private int enemyType;
-    private int health;
+    public int health;
+    private Coroutine damageOverTimeCoroutine;
+    private Coroutine freezeCoroutine;
     private GameObject self;
     private GameObject tower;
     private Rigidbody selfRB;
     private float moveSpeed;
     bool atTower;
     float towerDistance;
+    private bool isFrozen = false;
 
     void Start()
     {
@@ -23,12 +26,15 @@ public class EnemyController : MonoBehaviour
         switch (self.name) {
             case string s when s.StartsWith("NormalEnemy"):
                 enemyType = 1;
+                health = 1;
                 break;
             case string s when s.StartsWith("FlyingEnemy"):
                 enemyType = 2;
+                health = 4;
                 break;
             case string s when s.StartsWith("HeavyEnemy"):
                 enemyType = 3;
+                health = 10;
                 break;
             default:
                 break;
@@ -70,7 +76,53 @@ public class EnemyController : MonoBehaviour
         }
         if (atTower == false)
         {
-            selfRB.transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            if (isFrozen == false)
+            {
+                selfRB.transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
+            }
         }
+    }
+
+    public IEnumerator DamageOverTime()
+    {
+        // Change color filter to red
+        Renderer renderer = GetComponent<Renderer>();
+        Color originalColor = renderer.material.color;
+        renderer.material.color = Color.red;
+
+        // Apply damage over time
+        int damageCount = 0;
+        while (damageCount <= 2)
+        {
+            // Apply damage over time
+            health--;
+            damageCount++;
+            // Wait for 2 seconds before applying damage again
+            yield return new WaitForSeconds(2f);
+        }
+
+        // Remove color filter
+        renderer.material.color = originalColor;
+
+        StopCoroutine(damageOverTimeCoroutine);
+    }
+
+    public IEnumerator Freeze()
+    {
+        // Change color filter to blue
+        Renderer renderer = GetComponent<Renderer>();
+        Color originalColor = renderer.material.color;
+        renderer.material.color = Color.blue;
+
+        // Freeze object for 3 seconds.
+        isFrozen = true;
+        yield return new WaitForSeconds(3f);
+        isFrozen = false;
+
+
+        // Remove color filter
+        renderer.material.color = originalColor;
+
+        StopCoroutine(freezeCoroutine);
     }
 }
