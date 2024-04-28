@@ -1,14 +1,37 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TowerControl : MonoBehaviour
 {
-    public int towerHealth;
+    public int maxHealth = 100;
+    public int currentHealth;
+    public Slider healthSlider;
 
-    // Start is called before the first frame update
-    void Start()
+    private void Start()
     {
-        towerHealth = 100;
+        currentHealth = maxHealth;
+        UpdateHealthUI();
+    }
+
+    // Method to take damage
+    public void TakeDamage(int amount)
+    {
+        currentHealth -= amount;
+        currentHealth = Mathf.Max(currentHealth, 0); 
+        UpdateHealthUI();
+    }
+
+    public void Heal(int amount)
+    {
+        currentHealth += amount;
+        currentHealth = Mathf.Min(currentHealth, maxHealth); 
+    }
+
+    private void UpdateHealthUI()
+    {
+        if (healthSlider != null)
+        {
+            healthSlider.value = (float)currentHealth / maxHealth; 
+        }
     }
 }
