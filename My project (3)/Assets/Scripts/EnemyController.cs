@@ -15,6 +15,7 @@ public class EnemyController : MonoBehaviour
     bool atTower;
     float towerDistance;
     private bool isFrozen = false;
+    private int damage;
 
     void Start()
     {
@@ -46,17 +47,20 @@ public class EnemyController : MonoBehaviour
     {
         switch (enemyType)
         {
-            case 1:
+            case 1: // Basic Enemy
                 moveSpeed = 4f;
                 health = 1;
+                damage = 1;
                 break;
-            case 2:
+            case 2: // Flying Enemy
                 moveSpeed = 6f;
                 health = 3;
+                damage = 10;
                 break;
-            case 3:
+            case 3: // Heavy Enemy
                 moveSpeed = 3f;
-                health = 10;
+                health = 15;
+                damage = 5;
                 break;
             default:
                 break;
@@ -70,16 +74,33 @@ public class EnemyController : MonoBehaviour
         if (towerDistance < 5.0f)
         {
             atTower = true;
-        } else
-        {
+            // Flying enemy exploading
+            if (enemyType == 2)
+            {
+                // Damage tower
+
+
+                Destroy(gameObject);
+            }
+
+            // Start attacking tower
+
+
+        } else {
             atTower = false;
         }
+
         if (atTower == false)
         {
             if (isFrozen == false)
             {
                 selfRB.transform.Translate(Vector3.forward * moveSpeed * Time.deltaTime);
             }
+        }
+
+        if (health <= 0)
+        {
+            Destroy(gameObject);
         }
     }
 

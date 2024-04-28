@@ -384,6 +384,7 @@
 "Assets/Scripts/EnemyController.cs"
 "Assets/Scripts/GameController.cs"
 "Assets/Scripts/MagicBehavior.cs"
+"Assets/Scripts/TowerControl.cs"
 -langversion:9.0
 
 /deterministic
