@@ -10,6 +10,7 @@ public class EnemyController : MonoBehaviour
     private Coroutine freezeCoroutine;
     private GameObject self;
     private GameObject tower;
+    public TowerControl towerControl;
     private Rigidbody selfRB;
     private float moveSpeed;
     bool atTower;
@@ -22,6 +23,7 @@ public class EnemyController : MonoBehaviour
         self = gameObject;
         selfRB = self.GetComponent<Rigidbody>();
         tower = GameObject.Find("Tower");
+        towerControl = tower.GetComponent<TowerControl>();
         atTower = false;
 
         switch (self.name) {
@@ -78,7 +80,7 @@ public class EnemyController : MonoBehaviour
             if (enemyType == 2)
             {
                 // Damage tower
-
+                towerControl.currentHealth -= damage;
 
                 Destroy(gameObject);
             }

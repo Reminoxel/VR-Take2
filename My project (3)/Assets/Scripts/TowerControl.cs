@@ -24,7 +24,8 @@ public class TowerControl : MonoBehaviour
     public void Heal(int amount)
     {
         currentHealth += amount;
-        currentHealth = Mathf.Min(currentHealth, maxHealth); 
+        currentHealth = Mathf.Min(currentHealth, maxHealth);
+        UpdateHealthUI();
     }
 
     private void UpdateHealthUI()
