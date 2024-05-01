@@ -217,6 +217,7 @@
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Data.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
+-r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Drawing.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.IO.Compression.FileSystem.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Net.dll"
 -r:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/NetStandard/compat/2.1.0/shims/netfx/System.Numerics.dll"
@@ -354,13 +355,13 @@
 -r:"Library/Bee/artifacts/1900b0aE.dag/UnityEngine.UI.ref.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"C:/Program Files/Unity/Hub/Editor/2022.3.10f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/IXRLoaderPreInit.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRConfigurationData.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRGeneralSettings.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRLoader.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRLoaderHelper.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRManagementAnalytics.cs"
-"Library/PackageCache/com.unity.xr.management@4.4.0/Runtime/XRManagerSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/IXRLoaderPreInit.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRConfigurationData.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRGeneralSettings.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRLoader.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRLoaderHelper.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRManagementAnalytics.cs"
+"Library/PackageCache/com.unity.xr.management@4.4.1/Runtime/XRManagerSettings.cs"
 -langversion:9.0
 
 /deterministic
@@ -374,6 +375,7 @@
 /nowarn:0282
 /nowarn:1701
 /nowarn:1702
+-define:SYSTEM_DRAWING
 /utf8output
 /preferreduilang:en-US
 
