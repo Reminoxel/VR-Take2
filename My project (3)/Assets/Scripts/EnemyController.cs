@@ -52,17 +52,17 @@ public class EnemyController : MonoBehaviour
             case 1: // Basic Enemy
                 moveSpeed = 4f;
                 health = 1;
-                damage = 1;
+                damage = 5;
                 break;
             case 2: // Flying Enemy
                 moveSpeed = 6f;
                 health = 3;
-                damage = 10;
+                damage = 15;
                 break;
             case 3: // Heavy Enemy
                 moveSpeed = 3f;
                 health = 15;
-                damage = 5;
+                damage = 10;
                 break;
             default:
                 break;
