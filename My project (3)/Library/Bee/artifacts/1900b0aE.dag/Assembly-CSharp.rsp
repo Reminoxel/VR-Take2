@@ -400,6 +400,7 @@
 "Assets/Scripts/HideHandOnGrab.cs"
 "Assets/Scripts/MagicBehavior.cs"
 "Assets/Scripts/MenuInterface.cs"
+"Assets/Scripts/ObjectiveInterfaceController.cs"
 "Assets/Scripts/TowerControl.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
