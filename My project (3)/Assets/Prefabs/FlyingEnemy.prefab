@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1831787522617012849
+--- !u!1 &31669173751239568
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,82 +8,32 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2024839791791282799}
-  - component: {fileID: 4859366904183522706}
-  - component: {fileID: 6667113104864098582}
+  - component: {fileID: 2419016084017884486}
   m_Layer: 0
-  m_Name: Dir
+  m_Name: Sorcerer_COG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2024839791791282799
+--- !u!4 &2419016084017884486
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831787522617012849}
+  m_GameObject: {fileID: 31669173751239568}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.4000001, z: 0.4000001}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalRotation: {x: -0.14020005, y: -0.6930685, z: 0.20007145, w: 0.6782119}
+  m_LocalPosition: {x: -1.6100188e-19, y: 0.025045287, z: -0.0004982693}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 391612609934854081}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &4859366904183522706
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831787522617012849}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &6667113104864098582
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1831787522617012849}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: a33b30baa6afc1d498fe4205fb04a48f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &2162972699350055862
+  m_Children:
+  - {fileID: 6478891884959800881}
+  - {fileID: 4469924496627480263}
+  m_Father: {fileID: 3571758610457886381}
+  m_LocalEulerAnglesHint: {x: 1.1605763, y: -89.99999, z: 27.871944}
+--- !u!1 &155590547036726814
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -91,9 +41,105 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 391612609934854081}
-  - component: {fileID: 3883131093885441830}
-  - component: {fileID: 291716228858902546}
+  - component: {fileID: 8288168070871022217}
+  m_Layer: 0
+  m_Name: Sorcerer_Head
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8288168070871022217
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 155590547036726814}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.1909081, y: 0.007813675, z: -0.04014134, w: 0.9807557}
+  m_LocalPosition: {x: 0.00029294484, y: 0.003885853, z: -0.0003364244}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5673887359436676369}
+  - {fileID: 6126656772701928379}
+  m_Father: {fileID: 2137833687740045650}
+  m_LocalEulerAnglesHint: {x: -21.716225, y: 4.3387175, z: -11.610561}
+--- !u!1 &188882561656529010
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5171353826965226526}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerFor_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5171353826965226526
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188882561656529010}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.07657553, y: -0.113448426, z: -0.58199316, w: 0.801592}
+  m_LocalPosition: {x: -0.004230106, y: -0.0000100493335, z: -0.0017388933}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 969493015777648390}
+  m_Father: {fileID: 2751931575455958977}
+  m_LocalEulerAnglesHint: {x: -0.532156, y: -15.725163, z: -42.966705}
+--- !u!1 &767988074937363089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8396916959775491233}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerPnk_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8396916959775491233
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767988074937363089}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9659258, y: 0.25881907, z: 0.000000106194136, w: -0.000000028454636}
+  m_LocalPosition: {x: -0.0019770667, y: 2.220446e-16, z: 1.498801e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1555423129017907919}
+  m_LocalEulerAnglesHint: {x: 0.0000041327276, y: 179.99998, z: -115.74107}
+--- !u!1 &860761953611051150
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2073606531749708001}
+  - component: {fileID: 7198402464414657557}
+  - component: {fileID: 4226364175212857454}
   m_Layer: 0
   m_Name: Capsule
   m_TagString: Untagged
@@ -101,37 +147,37 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &391612609934854081
+--- !u!4 &2073606531749708001
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2162972699350055862}
+  m_GameObject: {fileID: 860761953611051150}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 2024839791791282799}
-  m_Father: {fileID: 7878038952754712419}
+  - {fileID: 4574076009787323100}
+  m_Father: {fileID: 6336892047551860646}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!33 &3883131093885441830
+--- !u!33 &7198402464414657557
 MeshFilter:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2162972699350055862}
+  m_GameObject: {fileID: 860761953611051150}
   m_Mesh: {fileID: 10208, guid: 0000000000000000e000000000000000, type: 0}
---- !u!23 &291716228858902546
+--- !u!23 &4226364175212857454
 MeshRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2162972699350055862}
+  m_GameObject: {fileID: 860761953611051150}
   m_Enabled: 1
   m_CastShadows: 1
   m_ReceiveShadows: 1
@@ -145,7 +191,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: f629c6e43dba4bf38cb74d8860150664, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -167,7 +213,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!1 &5001345393621898726
+--- !u!1 &1586271975442479780
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -175,10 +221,456 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 7878038952754712419}
-  - component: {fileID: 632945712140642780}
-  - component: {fileID: 1517402927007743157}
-  - component: {fileID: 5979126601701521812}
+  - component: {fileID: 6048981310983682089}
+  m_Layer: 0
+  m_Name: Sorcerer_Wisps_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6048981310983682089
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586271975442479780}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.022244774, y: 0.70675683, z: -0.07684845, w: 0.70291847}
+  m_LocalPosition: {x: 4.8814872e-11, y: -0.0029427106, z: -0.0007357555}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 372527737624424770}
+  m_LocalEulerAnglesHint: {x: -9.257707, y: 90, z: -4.4364777}
+--- !u!1 &1723384601964768775
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1555423129017907919}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerPnk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1555423129017907919
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1723384601964768775}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00061665033, y: 0.0023013703, z: -0.25881836, w: 0.96592313}
+  m_LocalPosition: {x: -0.0019318898, y: 8.437695e-17, z: -1.2212453e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8396916959775491233}
+  m_Father: {fileID: 7474335719117318181}
+  m_LocalEulerAnglesHint: {x: -0.0000000051068003, y: 0.27302077, z: 8.009007}
+--- !u!1 &1814171626018572819
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1641769339794176998}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerMid_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1641769339794176998
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814171626018572819}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.51264244, w: 0.85860217}
+  m_LocalPosition: {x: -0.002198624, y: -7.6280094e-19, z: 1.4551885e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3195923043485379957}
+  m_Father: {fileID: 8039901918371465698}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.368763}
+--- !u!1 &1947076966675214911
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1252578088639226174}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1252578088639226174
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947076966675214911}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.94913745, y: 0.24972083, z: -0.17809172, w: 0.0711406}
+  m_LocalPosition: {x: -0.002340528, y: -0.0013719825, z: 0.00020733668}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7305725936979960843}
+  m_Father: {fileID: 8993979127520940256}
+  m_LocalEulerAnglesHint: {x: 6.804064, y: -152.80757, z: 169.3856}
+--- !u!1 &2277422066827703796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6307593154727974311}
+  m_Layer: 0
+  m_Name: Sorcerer_Hood_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6307593154727974311
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2277422066827703796}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.37023088, y: 0.10051066, z: 0.14160262, w: 0.9125653}
+  m_LocalPosition: {x: 5.069225e-12, y: 0.0020100526, z: -3.9192627e-19}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4762534435950316574}
+  m_Father: {fileID: 6126656772701928379}
+  m_LocalEulerAnglesHint: {x: -44.191025, y: 1.7711635, z: 4.15018}
+--- !u!1 &2356373597056238447
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4291347292921861477}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerThm_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4291347292921861477
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2356373597056238447}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.39858788, y: -0.43154407, z: -0.24397126, w: 0.7716058}
+  m_LocalPosition: {x: 0.0018343937, y: 0.000092125105, z: 0.0021588788}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6104680463105835846}
+  m_Father: {fileID: 764565095888772719}
+  m_LocalEulerAnglesHint: {x: 11.460955, y: -61.559856, z: -24.41259}
+--- !u!1 &2690265738701054679
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8039901918371465698}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerMid_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8039901918371465698
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2690265738701054679}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0039712545, y: 0.0069177845, z: -0.5272564, w: 0.8496688}
+  m_LocalPosition: {x: -0.00452334, y: -1.7902953e-17, z: 3.4347209e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1641769339794176998}
+  m_Father: {fileID: 2751931575455958977}
+  m_LocalEulerAnglesHint: {x: 0.03130493, y: 0.9135276, z: -16.33131}
+--- !u!1 &3004167341213725602
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8082697585351761350}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerFor_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8082697585351761350
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3004167341213725602}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.000027674574, y: -0.000103282895, z: -0.25881907, w: 0.9659258}
+  m_LocalPosition: {x: 0.0023052844, y: 0, z: -0.0000000116360015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 927497127416344393}
+  m_Father: {fileID: 322246834136284981}
+  m_LocalEulerAnglesHint: {x: -1.5958751e-10, y: -0.012252853, z: 8.009}
+--- !u!1 &3040816338792168874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7305725936979960843}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_LowerArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7305725936979960843
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3040816338792168874}
+  serializedVersion: 2
+  m_LocalRotation: {x: -4.1059837e-14, y: -0.61315304, z: -5.922755e-14, w: 0.78996414}
+  m_LocalPosition: {x: -0.0036998147, y: -1.7572749e-17, z: -7.474489e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2751931575455958977}
+  m_Father: {fileID: 1252578088639226174}
+  m_LocalEulerAnglesHint: {x: -4.0812236e-12, y: -60.237316, z: -4.181495e-12}
+--- !u!1 &3078758592318377319
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7386395579964719631}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerMid_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7386395579964719631
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3078758592318377319}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.021814886, w: 0.99976206}
+  m_LocalPosition: {x: 0.0021986, y: 2.3536727e-16, z: 5.01769e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2021195905870758659}
+  m_Father: {fileID: 8950296152435821766}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.7607584}
+--- !u!1 &3082554823354494030
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7602510629298590448}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerFor_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7602510629298590448
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3082554823354494030}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.81915206, y: 0.57357645, z: 0.000000111942995, w: 0.00000008417264}
+  m_LocalPosition: {x: -0.001875652, y: 2.220446e-16, z: -5.03382e-16}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 7143426232891076866}
+  m_LocalEulerAnglesHint: {x: -0.0000010939045, y: 179.99997, z: 138.92258}
+--- !u!1 &3297971870017611434
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2137833687740045650}
+  m_Layer: 0
+  m_Name: Sorcerer_Neck
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2137833687740045650
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3297971870017611434}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.45158377, y: -0.54412514, z: 0.45158377, w: 0.54412514}
+  m_LocalPosition: {x: 0.0000000011492232, y: -2.2520075e-10, z: -6.8371004e-25}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8288168070871022217}
+  m_Father: {fileID: 6478891884959800881}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3628410684665473123
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 322246834136284981}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerFor_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &322246834136284981
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3628410684665473123}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00018461396, y: 0.00068898866, z: -0.258819, w: 0.96592563}
+  m_LocalPosition: {x: 0.002298965, y: 0, z: 0.000000008075751}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8082697585351761350}
+  m_Father: {fileID: 6029818954615319512}
+  m_LocalEulerAnglesHint: {x: 6.122949e-10, y: 0.08173742, z: 8.009007}
+--- !u!1 &3630372827621127939
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3571758610457886381}
+  m_Layer: 0
+  m_Name: Sorcerer_Root
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3571758610457886381
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3630372827621127939}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.000000011207957, y: -0.025853816, z: -0.0009867473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2419016084017884486}
+  m_Father: {fileID: 1117688318160632023}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &3726699632358710238
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6336892047551860646}
+  - component: {fileID: 4486824426437792822}
+  - component: {fileID: 8447825163780373380}
+  - component: {fileID: 5070336054486102110}
   m_Layer: 0
   m_Name: FlyingEnemy
   m_TagString: Enemies
@@ -186,41 +678,44 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &7878038952754712419
+--- !u!4 &6336892047551860646
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5001345393621898726}
+  m_GameObject: {fileID: 3726699632358710238}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -9.181698, y: 2.520439, z: -2.93}
+  m_LocalPosition: {x: -7.96, y: 2.520439, z: -41.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 391612609934854081}
+  - {fileID: 2073606531749708001}
+  - {fileID: 8672196865835489945}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &632945712140642780
+--- !u!114 &4486824426437792822
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5001345393621898726}
+  m_GameObject: {fileID: 3726699632358710238}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: d46ef3c123a8f0046960de5494393e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!136 &1517402927007743157
+  health: 0
+  towerControl: {fileID: 0}
+--- !u!136 &8447825163780373380
 CapsuleCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5001345393621898726}
+  m_GameObject: {fileID: 3726699632358710238}
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -237,13 +732,13 @@ CapsuleCollider:
   m_Height: 2
   m_Direction: 1
   m_Center: {x: 0, y: 0, z: 0}
---- !u!54 &5979126601701521812
+--- !u!54 &5070336054486102110
 Rigidbody:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5001345393621898726}
+  m_GameObject: {fileID: 3726699632358710238}
   serializedVersion: 4
   m_Mass: 4
   m_Drag: 0
@@ -264,3 +759,1527 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 116
   m_CollisionDetection: 0
+--- !u!1 &3741957034035554866
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4558382732089428411}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_Shoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4558382732089428411
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3741957034035554866}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.5185153, y: 0.43032947, z: 0.5685826, w: -0.47188166}
+  m_LocalPosition: {x: -0.0011196685, y: 0.00020202743, z: 0.00368369}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1636357303198247920}
+  m_Father: {fileID: 6478891884959800881}
+  m_LocalEulerAnglesHint: {x: -78.156364, y: 63.39431, z: -153.88483}
+--- !u!1 &3829654983576322882
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7143426232891076866}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerFor_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7143426232891076866
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3829654983576322882}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00006133042, y: -0.000087588916, z: -0.57357645, w: 0.81915206}
+  m_LocalPosition: {x: -0.0023052648, y: 8.437695e-17, z: 2.3869794e-17}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7602510629298590448}
+  m_Father: {fileID: 969493015777648390}
+  m_LocalEulerAnglesHint: {x: 4.694087e-10, y: -0.01225286, z: -41.0774}
+--- !u!1 &4014578265707097750
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7195454971434180047}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerMid_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7195454971434180047
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4014578265707097750}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.99976206, y: 0.021814886, z: 0.0000002532691, w: -0.0000000055263514}
+  m_LocalPosition: {x: 0.0024450999, y: 2.6201262e-16, z: -3.3335966e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2021195905870758659}
+  m_LocalEulerAnglesHint: {x: 0.0000027041783, y: 179.99997, z: -118.989235}
+--- !u!1 &4230836179824141043
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4269403174723262043}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerThm_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4269403174723262043
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4230836179824141043}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.45184022, y: -0.41388348, z: -0.27190724, w: 0.7420292}
+  m_LocalPosition: {x: -0.00183437, y: -0.00009215271, z: -0.0021588753}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5173143642637240528}
+  m_Father: {fileID: 2751931575455958977}
+  m_LocalEulerAnglesHint: {x: 19.773108, y: -66.35219, z: -41.726284}
+--- !u!1 &4236411794160830299
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7720885904450723501}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_LowerArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7720885904450723501
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4236411794160830299}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0.32323572, z: -0, w: 0.9463185}
+  m_LocalPosition: {x: 0.0036998147, y: 0, z: 4.1715792e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 764565095888772719}
+  m_Father: {fileID: 1636357303198247920}
+  m_LocalEulerAnglesHint: {x: 0, y: -26.476402, z: 0}
+--- !u!1 &4444632539207534383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7474335719117318181}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerPnk_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7474335719117318181
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4444632539207534383}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.0011401975, y: -0.0042552743, z: -0.25881654, w: 0.96591645}
+  m_LocalPosition: {x: -0.0019191294, y: -2.6362817e-18, z: 2.38862e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1555423129017907919}
+  m_Father: {fileID: 9074287161156236085}
+  m_LocalEulerAnglesHint: {x: 0.000000008441853, y: -0.5048214, z: 8.009006}
+--- !u!1 &4462360274863476275
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5173143642637240528}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerThm_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5173143642637240528
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4462360274863476275}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.025155816, y: 0.117919564, z: -0.59954035, w: 0.79121023}
+  m_LocalPosition: {x: -0.0016366823, y: -2.8741908e-18, z: -2.5727056e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3097740236340219858}
+  m_Father: {fileID: 4269403174723262043}
+  m_LocalEulerAnglesHint: {x: -1.4903703, y: 12.080537, z: -53.026096}
+--- !u!1 &4896926999136071833
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4026180849760571752}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerThm_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4026180849760571752
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4896926999136071833}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.1736482, w: 0.9848078}
+  m_LocalPosition: {x: 0.00167618, y: 0, z: 0.000000008272055}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 510360643462759702}
+  m_Father: {fileID: 6104680463105835846}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20}
+--- !u!1 &4982453832611298640
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7642017949686292128}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerPnk_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7642017949686292128
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4982453832611298640}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00038395452, y: -0.0043886206, z: 0.0871549, w: 0.99618506}
+  m_LocalPosition: {x: 0.001919099, y: -4.440892e-18, z: -0.000000012134876}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1339569572200777537}
+  m_Father: {fileID: 911557761487515082}
+  m_LocalEulerAnglesHint: {x: 0.000000015681426, y: -0.50482136, z: -18.922594}
+--- !u!1 &5016989012717661340
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8950296152435821766}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerMid_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8950296152435821766
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5016989012717661340}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.000037394355, y: 0.007976542, z: -0.038934145, w: 0.99921}
+  m_LocalPosition: {x: 0.004523328, y: -0.000000026358718, z: 2.1092814e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7386395579964719631}
+  m_Father: {fileID: 764565095888772719}
+  m_LocalEulerAnglesHint: {x: 0.031307735, y: 0.9135281, z: 2.7982168}
+--- !u!1 &5107928777091108743
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8993979127520940256}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_Shoulder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8993979127520940256
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5107928777091108743}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.43032947, y: -0.5185153, z: 0.47188166, w: 0.5685826}
+  m_LocalPosition: {x: -0.0011196295, y: 0.00020202016, z: -0.0036836888}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1252578088639226174}
+  m_Father: {fileID: 6478891884959800881}
+  m_LocalEulerAnglesHint: {x: 78.156364, y: -63.39431, z: 26.115173}
+--- !u!1 &5282882258378771382
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4469924496627480263}
+  m_Layer: 0
+  m_Name: Sorcerer_Hips
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4469924496627480263
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5282882258378771382}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.11154926, y: 0.061977755, z: -0.8311428, w: 0.5412182}
+  m_LocalPosition: {x: 2.0008726e-11, y: 1.9180888e-11, z: 6.884141e-12}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 715445392746225727}
+  m_Father: {fileID: 2419016084017884486}
+  m_LocalEulerAnglesHint: {x: 1.07792, y: -0.62039423, z: -113.81203}
+--- !u!1 &5407411893803087902
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1636357303198247920}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_UpperArm
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1636357303198247920
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5407411893803087902}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9445546, y: 0.18001705, z: -0.26578268, w: 0.06906524}
+  m_LocalPosition: {x: 0.0023405259, y: 0.001372, z: -0.00020733677}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7720885904450723501}
+  m_Father: {fileID: 4558382732089428411}
+  m_LocalEulerAnglesHint: {x: 12.328534, y: -150.60869, z: 162.82494}
+--- !u!1 &5735854297394663222
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2021195905870758659}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerMid_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2021195905870758659
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5735854297394663222}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.021814886, w: 0.99976206}
+  m_LocalPosition: {x: 0.0022863, y: 2.4868996e-16, z: -1.7020172e-11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7195454971434180047}
+  m_Father: {fileID: 7386395579964719631}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 4.7607584}
+--- !u!1 &5883328926229493933
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3097740236340219858}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerThm_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3097740236340219858
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5883328926229493933}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.1736482, w: 0.9848078}
+  m_LocalPosition: {x: -0.0016761768, y: 7.9936054e-17, z: -2.273115e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2055829331374770559}
+  m_Father: {fileID: 5173143642637240528}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 20}
+--- !u!1 &6018515012642268032
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6029818954615319512}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerFor_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6029818954615319512
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6018515012642268032}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.033155818, y: -0.132797, z: -0.27273405, w: 0.9523034}
+  m_LocalPosition: {x: 0.004230094, y: 0.00001002294, z: 0.0017388968}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 322246834136284981}
+  m_Father: {fileID: 764565095888772719}
+  m_LocalEulerAnglesHint: {x: -0.5321558, y: -15.725165, z: 6.1196995}
+--- !u!1 &6262047994152532796
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6846566038640808841}
+  - component: {fileID: 8421792281526616974}
+  m_Layer: 0
+  m_Name: Sorcerer_Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6846566038640808841
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6262047994152532796}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8672196865835489945}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!137 &8421792281526616974
+SkinnedMeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6262047994152532796}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 3
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: c94d9db2084ed534997ec3e250825e20, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  serializedVersion: 2
+  m_Quality: 0
+  m_UpdateWhenOffscreen: 0
+  m_SkinnedMotionVectors: 1
+  m_Mesh: {fileID: -9165111656505870967, guid: ae5f305de038e6e48b17be658f73aea3, type: 3}
+  m_Bones:
+  - {fileID: 2419016084017884486}
+  - {fileID: 6478891884959800881}
+  - {fileID: 8993979127520940256}
+  - {fileID: 1252578088639226174}
+  - {fileID: 7305725936979960843}
+  - {fileID: 2751931575455958977}
+  - {fileID: 8039901918371465698}
+  - {fileID: 1641769339794176998}
+  - {fileID: 3195923043485379957}
+  - {fileID: 4792819237464660819}
+  - {fileID: 9074287161156236085}
+  - {fileID: 7474335719117318181}
+  - {fileID: 1555423129017907919}
+  - {fileID: 8396916959775491233}
+  - {fileID: 5171353826965226526}
+  - {fileID: 969493015777648390}
+  - {fileID: 7143426232891076866}
+  - {fileID: 7602510629298590448}
+  - {fileID: 4269403174723262043}
+  - {fileID: 5173143642637240528}
+  - {fileID: 3097740236340219858}
+  - {fileID: 2055829331374770559}
+  - {fileID: 4558382732089428411}
+  - {fileID: 1636357303198247920}
+  - {fileID: 7720885904450723501}
+  - {fileID: 764565095888772719}
+  - {fileID: 8950296152435821766}
+  - {fileID: 7386395579964719631}
+  - {fileID: 2021195905870758659}
+  - {fileID: 7195454971434180047}
+  - {fileID: 911557761487515082}
+  - {fileID: 7642017949686292128}
+  - {fileID: 1339569572200777537}
+  - {fileID: 1291432092131644118}
+  - {fileID: 6029818954615319512}
+  - {fileID: 322246834136284981}
+  - {fileID: 8082697585351761350}
+  - {fileID: 927497127416344393}
+  - {fileID: 4291347292921861477}
+  - {fileID: 6104680463105835846}
+  - {fileID: 4026180849760571752}
+  - {fileID: 510360643462759702}
+  - {fileID: 2137833687740045650}
+  - {fileID: 8288168070871022217}
+  - {fileID: 5673887359436676369}
+  - {fileID: 6126656772701928379}
+  - {fileID: 6307593154727974311}
+  - {fileID: 4762534435950316574}
+  - {fileID: 4469924496627480263}
+  - {fileID: 715445392746225727}
+  - {fileID: 372527737624424770}
+  - {fileID: 6048981310983682089}
+  m_BlendShapeWeights: []
+  m_RootBone: {fileID: 2419016084017884486}
+  m_AABB:
+    m_Center: {x: 0.0010033273, y: 0.0004236754, z: -0.00045763794}
+    m_Extent: {x: 0.016464097, y: 0.0155116785, z: 0.017538562}
+  m_DirtyAABB: 0
+--- !u!1 &6366357465253388168
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4762534435950316574}
+  m_Layer: 0
+  m_Name: Sorcerer_Hood_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4762534435950316574
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6366357465253388168}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.6205672, y: -0, z: -0, w: 0.7841533}
+  m_LocalPosition: {x: 2.5666505e-11, y: 0.0026669188, z: -3.9000995e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 6307593154727974311}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6498043455852717465
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 764565095888772719}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &764565095888772719
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6498043455852717465}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.032752488, y: -0.016369727, z: 0.27008644, w: 0.9621396}
+  m_LocalPosition: {x: 0.004750336, y: 0, z: -3.652289e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6029818954615319512}
+  - {fileID: 8950296152435821766}
+  - {fileID: 911557761487515082}
+  - {fileID: 4291347292921861477}
+  m_Father: {fileID: 7720885904450723501}
+  m_LocalEulerAnglesHint: {x: -21.038645, y: -17.994146, z: 16.21932}
+--- !u!1 &6717414027165890054
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8672196865835489945}
+  - component: {fileID: 4588799780705640995}
+  - component: {fileID: 4368007267640637423}
+  m_Layer: 0
+  m_Name: Sorcerer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8672196865835489945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717414027165890054}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.013000011, y: -1.0654389, z: 0.13100004}
+  m_LocalScale: {x: 48.995785, y: 48.995785, z: 48.995785}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6846566038640808841}
+  - {fileID: 1117688318160632023}
+  m_Father: {fileID: 6336892047551860646}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &4588799780705640995
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717414027165890054}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 90e7c0c264439c548b91c61b15850198, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!82 &4368007267640637423
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6717414027165890054}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: c5af8d41e9989ea46a167fec2cbcf254, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.166
+  m_Pitch: -0.89
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 3
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1 &6752236820024054505
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6478891884959800881}
+  m_Layer: 0
+  m_Name: Sorcerer_Clavicle
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6478891884959800881
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6752236820024054505}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.43451124, y: 0.9006665, z: -8.175606e-17, w: -2.8543776e-17}
+  m_LocalPosition: {x: 0.0009285535, y: 0.0020297565, z: 0.00040771483}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 8993979127520940256}
+  - {fileID: 2137833687740045650}
+  - {fileID: 4558382732089428411}
+  m_Father: {fileID: 2419016084017884486}
+  m_LocalEulerAnglesHint: {x: 7.687113e-15, y: 180, z: -51.50839}
+--- !u!1 &6760716777913264937
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6126656772701928379}
+  m_Layer: 0
+  m_Name: Sorcerer_Hood_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6126656772701928379
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6760716777913264937}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.09028073, y: 0.1543205, z: 0.079617046, w: 0.98066086}
+  m_LocalPosition: {x: 4.5740197e-18, y: 0.004602511, z: -0.0009711596}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6307593154727974311}
+  m_Father: {fileID: 8288168070871022217}
+  m_LocalEulerAnglesHint: {x: -10.568045, y: 4.742628, z: 2.1083784}
+--- !u!1 &6872865243139334987
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 510360643462759702}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerThm_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &510360643462759702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6872865243139334987}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9914449, y: 0.1305262, z: 0.0000002586026, w: 0.00000010026139}
+  m_LocalPosition: {x: 0.00164228, y: -4.440892e-18, z: 0.000000008104757}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 4026180849760571752}
+  m_LocalEulerAnglesHint: {x: 0.0000058654996, y: 179.99995, z: 164.99998}
+--- !u!1 &6979140973354551349
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117688318160632023}
+  m_Layer: 0
+  m_Name: Sorcerer_Rig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1117688318160632023
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6979140973354551349}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0.000000011207957, y: 0.025853816, z: 0.0009867473}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 3571758610457886381}
+  m_Father: {fileID: 8672196865835489945}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7072566931343158304
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 969493015777648390}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerFor_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &969493015777648390
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7072566931343158304}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.00040912838, y: 0.00058429583, z: -0.5735763, w: 0.8191519}
+  m_LocalPosition: {x: -0.0022989963, y: -3.445738e-18, z: -2.7120994e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7143426232891076866}
+  m_Father: {fileID: 5171353826965226526}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.08173693, z: -41.07741}
+--- !u!1 &7151267329226340432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 911557761487515082}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerPnk_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &911557761487515082
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7151267329226340432}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.019295907, y: 0.18416345, z: 0.068868406, w: 0.98029006}
+  m_LocalPosition: {x: 0.0041712373, y: 0.000012040003, z: -0.0019533935}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7642017949686292128}
+  m_Father: {fileID: 764565095888772719}
+  m_LocalEulerAnglesHint: {x: 0.7142147, y: 21.330873, z: -20.750887}
+--- !u!1 &7154702836558180019
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5673887359436676369}
+  m_Layer: 0
+  m_Name: Sorcerer_Hat
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5673887359436676369
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7154702836558180019}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.19106796, y: -0, z: -0, w: 0.98157686}
+  m_LocalPosition: {x: -2.068441e-18, y: 0.0058348672, z: 1.1389369e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8288168070871022217}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &7360847037550126088
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1339569572200777537}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerPnk_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1339569572200777537
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7360847037550126088}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.00020765324, y: 0.0023734875, z: 0.087155506, w: 0.9961919}
+  m_LocalPosition: {x: 0.0019319275, y: -4.440892e-18, z: 0.00000000953653}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1291432092131644118}
+  m_Father: {fileID: 7642017949686292128}
+  m_LocalEulerAnglesHint: {x: 0.000000008377236, y: 0.2730202, z: -18.9226}
+--- !u!1 &7379010180541447128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2055829331374770559}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerThm_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2055829331374770559
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7379010180541447128}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9914449, y: 0.1305262, z: 0.00000012156903, w: -0.000000016004869}
+  m_LocalPosition: {x: -0.0016422807, y: 2.0872193e-16, z: -2.2271739e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3097740236340219858}
+  m_LocalEulerAnglesHint: {x: -0.0000028354762, y: 179.99998, z: 164.99998}
+--- !u!1 &7409664432165102533
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6104680463105835846}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerThm_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6104680463105835846
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7409664432165102533}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.036679737, y: 0.05675956, z: -0.54151976, w: 0.8379674}
+  m_LocalPosition: {x: 0.00163668, y: -8.881784e-18, z: 0.00000000807712}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4026180849760571752}
+  m_Father: {fileID: 4291347292921861477}
+  m_LocalEulerAnglesHint: {x: 1.7164733, y: 2.6812928, z: -31.476461}
+--- !u!1 &7484735249546100442
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1291432092131644118}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerPnk_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1291432092131644118
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7484735249546100442}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9961947, y: -0.087155744, z: 0.00000025037613, w: 0.000000021905073}
+  m_LocalPosition: {x: 0.001977064, y: 8.881784e-18, z: -6.3939054e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1339569572200777537}
+  m_LocalEulerAnglesHint: {x: 0.0000008848489, y: 179.99997, z: 83.31734}
+--- !u!1 &7795122797268495868
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4792819237464660819}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerMid_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4792819237464660819
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7795122797268495868}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.85860217, y: 0.51264244, z: 0.0000001199707, w: 0.00000008345656}
+  m_LocalPosition: {x: -0.0024450547, y: 1.9984014e-16, z: -2.711055e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 3195923043485379957}
+  m_LocalEulerAnglesHint: {x: -0.00000083451414, y: 179.99998, z: 165.63121}
+--- !u!1 &7892890193314028799
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3195923043485379957}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerMid_3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3195923043485379957
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7892890193314028799}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: -0, z: -0.51264244, w: 0.85860217}
+  m_LocalPosition: {x: -0.002286285, y: 8.437695e-17, z: -2.5350102e-13}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4792819237464660819}
+  m_Father: {fileID: 1641769339794176998}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -14.368763}
+--- !u!1 &8016545267988660635
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 927497127416344393}
+  m_Layer: 0
+  m_Name: Sorcerer_Right_FingerFor_4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &927497127416344393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8016545267988660635}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.9659258, y: 0.25881907, z: 0.00000024325362, w: 0.000000072675746}
+  m_LocalPosition: {x: 0.0018756684, y: 8.881784e-18, z: -0.000000003973605}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 8082697585351761350}
+  m_LocalEulerAnglesHint: {x: 0.000004372997, y: 179.99995, z: -115.74107}
+--- !u!1 &8023734567929922229
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 715445392746225727}
+  m_Layer: 0
+  m_Name: Sorcerer_Wisp_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &715445392746225727
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8023734567929922229}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.0055491664, y: -0.069902115, z: 0.009135431, w: 0.9974966}
+  m_LocalPosition: {x: 0.0034931253, y: -0.00020898004, z: -1.0432161e-10}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 372527737624424770}
+  m_Father: {fileID: 4469924496627480263}
+  m_LocalEulerAnglesHint: {x: 0.6459805, y: 9.235291, z: 1.102845}
+--- !u!1 &8462725386836327959
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 372527737624424770}
+  m_Layer: 0
+  m_Name: Sorcerer_Wisp_2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &372527737624424770
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8462725386836327959}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.5128253, y: 0.48683694, z: 0.43967417, w: 0.55379295}
+  m_LocalPosition: {x: 0.0028636544, y: -0.0007171336, z: 3.330669e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 6048981310983682089}
+  m_Father: {fileID: 715445392746225727}
+  m_LocalEulerAnglesHint: {x: -84.93635, y: 90.00001, z: 9.2576885}
+--- !u!1 &8588409785146222597
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4574076009787323100}
+  - component: {fileID: 940615942073277843}
+  - component: {fileID: 6143444341319658226}
+  m_Layer: 0
+  m_Name: Dir
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4574076009787323100
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588409785146222597}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.4000001, z: 0.4000001}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2073606531749708001}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &940615942073277843
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588409785146222597}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!23 &6143444341319658226
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588409785146222597}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: f629c6e43dba4bf38cb74d8860150664, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!1 &8628478237772084237
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2751931575455958977}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_Hand
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2751931575455958977
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8628478237772084237}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0.18195647, y: 0.17008446, z: 0.2686971, w: 0.9304649}
+  m_LocalPosition: {x: -0.004750339, y: 8.881784e-18, z: 3.819762e-18}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 5171353826965226526}
+  - {fileID: 8039901918371465698}
+  - {fileID: 9074287161156236085}
+  - {fileID: 4269403174723262043}
+  m_Father: {fileID: 7305725936979960843}
+  m_LocalEulerAnglesHint: {x: -2.8630238, y: 16.701923, z: 33.516716}
+--- !u!1 &8909554103725509061
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9074287161156236085}
+  m_Layer: 0
+  m_Name: Sorcerer_Left_FingerPnk_1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9074287161156236085
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8909554103725509061}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0.044855393, y: 0.17965662, z: -0.27056384, w: 0.94472575}
+  m_LocalPosition: {x: -0.004171231, y: -0.00001206702, z: 0.0019533962}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 7474335719117318181}
+  m_Father: {fileID: 2751931575455958977}
+  m_LocalEulerAnglesHint: {x: 0.7142152, y: 21.330873, z: 6.1807213}

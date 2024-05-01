@@ -40,8 +40,8 @@ public class GameController : MonoBehaviour
     void UpdateWave()
     {
         enemyType1Count = Mathf.FloorToInt(waveNum * 10 * normalSpawnRate);
-        enemyType2Count = Mathf.FloorToInt(waveNum * 4 * flyingSpawnRate);
-        enemyType3Count = Mathf.FloorToInt(waveNum * 1 * heavySpawnRate);
+        enemyType2Count = Mathf.FloorToInt(waveNum * 7 * flyingSpawnRate);
+        enemyType3Count = Mathf.FloorToInt(waveNum * 4 * heavySpawnRate);
 
         if (enemyType1Count < 1)
         {
@@ -67,7 +67,7 @@ public class GameController : MonoBehaviour
         {
             randX = Random.Range(-50f, 50f);
             randZ = Random.Range(-100f, -300f);
-            Vector3 randPos = new Vector3(randX, 1, randZ);
+            Vector3 randPos = new Vector3(randX, 5, randZ);
             Instantiate(NormalEnemyPrefab, randPos, Quaternion.identity);
             totalEnemyCount++;
         }
@@ -84,7 +84,7 @@ public class GameController : MonoBehaviour
         {
             randX = Random.Range(-50f, 50f);
             randZ = Random.Range(-100f, -150f);
-            Vector3 randPos = new Vector3(randX, 1, randZ);
+            Vector3 randPos = new Vector3(randX, 5, randZ);
             Instantiate(HeavyEnemyPrefab, randPos, Quaternion.identity);
             totalEnemyCount++;
         }
