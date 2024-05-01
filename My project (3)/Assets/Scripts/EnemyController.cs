@@ -52,17 +52,17 @@ public class EnemyController : MonoBehaviour
             case 1: // Basic Enemy
                 moveSpeed = 4f;
                 health = 1;
-                damage = 5;
+                damage = 1;
                 break;
             case 2: // Flying Enemy
                 moveSpeed = 6f;
                 health = 3;
-                damage = 15;
+                damage = 10;
                 break;
             case 3: // Heavy Enemy
                 moveSpeed = 3f;
                 health = 15;
-                damage = 10;
+                damage = 5;
                 break;
             default:
                 break;
@@ -76,17 +76,15 @@ public class EnemyController : MonoBehaviour
         if (towerDistance < 5.0f)
         {
             atTower = true;
+            towerControl.currentHealth -= damage;
             // Flying enemy exploading
             if (enemyType == 2)
             {
-                // Damage tower
-                towerControl.currentHealth -= damage;
-
                 Destroy(gameObject);
             }
 
             // Start attacking tower
-
+            StartCoroutine(DamageOverTime());
 
         } else {
             atTower = false;
@@ -112,7 +110,7 @@ public class EnemyController : MonoBehaviour
         Renderer renderer = GetComponent<Renderer>();
         Color originalColor = renderer.material.color;
         renderer.material.color = Color.red;
-
+        yield return new WaitForSeconds(2f);
         // Apply damage over time
         int damageCount = 0;
         while (damageCount <= 2)

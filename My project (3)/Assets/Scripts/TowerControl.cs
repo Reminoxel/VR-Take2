@@ -3,7 +3,7 @@ using UnityEngine.UI;
 
 public class TowerControl : MonoBehaviour
 {
-    public int maxHealth = 100;
+    public int maxHealth = 1000;
     public int currentHealth;
     public Slider healthSlider;
 
@@ -19,6 +19,9 @@ public class TowerControl : MonoBehaviour
         currentHealth -= amount;
         currentHealth = Mathf.Max(currentHealth, 0); 
         UpdateHealthUI();
+        if(currentHealth <= 0){
+            Destroy(this.gameObject);
+        }
     }
 
     public void Heal(int amount)
@@ -32,7 +35,7 @@ public class TowerControl : MonoBehaviour
     {
         if (healthSlider != null)
         {
-            healthSlider.value = (float)currentHealth / maxHealth; 
+            healthSlider.value = (float)currentHealth; 
         }
     }
 }
